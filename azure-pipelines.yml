@@ -24,7 +24,7 @@ steps:
     resourceGroupName: 'myResourceGroup'
     location: 'Central US'
     templateLocation: 'Linked artifact'
-    csmFile: 'CreatWebApp/azureDeploy.json'
+    csmFile: 'CreateWebApp/azureDeploy.json'
     overrideParameters: '-projectName mypr02 -linkedTemplateUri https://raw.githubusercontent.com/Megha-code/Test2020-repo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'deploy1'
